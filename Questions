@@ -1,0 +1,30 @@
+Function CallBack Example: 
+const callback = () => console.log('Hello, world');
+setTimeout(callback, 1000);
+
+
+
+
+Person Object Example: 
+let person = {
+  fName: "Yannick",
+  lName: "Yewawa",
+  Id: 123,
+  retrieve:  function() {
+    return `My name is ${this.fName} ${this.lName}`
+  } 
+}
+
+Creation and appendage of P element: 
+const pElement = document.createElement('p');
+document.body.appendChild(pElement);
+pElement.textContent = "Hello World";
+
+Bug fix: 
+(Simple operator precendence fix)
+
+function average(a, b) {
+  return (a + b) / 2;
+}
+
+console.log(average(2, 1)); 
